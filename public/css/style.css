@@ -1,0 +1,59 @@
+html,
+body {
+  height: 100%;
+}
+
+
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.form-registration{
+    border-radius: 0;
+    margin-bottom: -1px;
+}
+/* CSS untuk membuat header atas tetap */
+.table-container {
+  overflow: auto;
+  max-height: 300px; /* Atur tinggi maksimal untuk area tabel */
+}
+
+/* CSS untuk header atas */
+.table-header {
+  background-color: #f2f2f2;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+/* CSS untuk header samping */
+.header-column {
+  background-color: #f2f2f2;
+  position: sticky;
+  left: 0;
+  z-index: 1;
+}
+
+/* CSS untuk sel tabel */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
